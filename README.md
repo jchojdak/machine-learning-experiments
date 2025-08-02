@@ -34,3 +34,14 @@ https://github.com/jchojdak/machine-learning-experiments/blob/master/ml-knn-digi
 ### Result:
 
 ![image](https://github.com/user-attachments/assets/c9653d77-5e7d-4a79-8c6d-80d6da2baad5)
+
+### 2. Develop and compare multiple machine learning models to predict anemia based on blood test parameters
+```
+https://github.com/jchojdak/machine-learning-experiments/blob/master/detect-anemia-by-blood-all-models/detect-anemia-by-blood-all-models.ipynb
+```
+
+### Steps:
+1. Load and merge `https://www.kaggle.com/datasets/biswaranjanrao/anemia-dataset`, `https://www.kaggle.com/datasets/ragishehab/anemia-data-set` datasets.
+2. Remove duplications, clean data in Python pipeline
+3. Implement `Logistic Regression`, `Random Forest`, `Gradient Boosting`, `Support Vector Machine`, `K-Nearest Neighbors`, `Decision Tree`, `Naive Bayes` models from `sklearn` kit.
+4. Visualize the results and compare multiple machine learning models.
